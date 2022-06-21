@@ -1,3 +1,134 @@
-body{
-   background-color: tomato;
+/* Основной цвет текста #212121 */
+/* Цвет логотипа черный #000000
+Синий #2196F3 */
+/* Вторичный цвет текста #757575 */
+/* Акцентный цвет синий #2196F3 */
+/* Белый цвет #FFFFFF */
+/* Цвет номера и мейла в футере rgb(255, 255, 255, 0.6); */
+/* Цвет бекграунда для button #F5F4FA */
+/* Фон для главной секции страницы и футера #2F303A */
+/* Бэкграунд цвет страницы #FFFFFF */
+/* бэкграунд цвет секции Наша команда #F5F4FA */
+:root{
+   --primary-text-color: #212121;
+   --accent-color: #2196F3;
+   --primary-white-color: #FFFFFF;
 }
+
+
+body{
+   color:var(--primary-text-color) ;
+   background-color: var(--primary-white-color);
+}
+
+a{
+   text-decoration: none;
+}
+
+ul{
+   list-style: none;
+}
+
+/* header */
+
+.logo-header{
+   color: #000000;
+}
+
+.logo-web{
+   color: var(--accent-color);
+}
+
+.site-nav a{
+   color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus{
+   color: var(--accent-color);
+}
+
+.contacts-header a{
+color: #757575;
+}
+
+.contacts-header a:hover,
+.contacts-header a:focus{
+   color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero, .footer{
+   background-color: #2F303A;
+}
+
+.hero-title{
+   color: var(--primary-white-color);
+}
+
+.btn{
+   background-color: #F5F4FA;
+   color: var(--primary-text-color);
+}
+
+.btn:hover,
+.btn:focus{
+   background-color: var(--accent-color);
+   color: var(--primary-white-color);
+}
+/* Section */
+
+/* .section-title{
+   color: #212121;
+}
+
+ /* Features */
+
+.features-list .title{
+   color: var(--primary-text-color);
+}
+
+.features-list .text{
+   color: #757575;
+}
+
+/* Works */
+
+.section.bgc-section{
+   background-color: #F5F4FA;
+}
+
+.work-list .title{
+   color: var(--primary-text-color);
+}
+
+.work-list .text{
+   color: #757575;
+}
+
+/* Footer */
+
+.logo-footer{
+  color: var(--primary-white-color);
+}
+
+.address a{
+   color: var(--primary-white-color);
+}
+
+.address a:hover,
+.address a:focus{
+color: var(--accent-color) ;
+}
+
+.contacts-footer a{
+   color: rgb(255, 255, 255, 0.6);
+}
+
+.contacts-footer a:hover,
+.contacts-footer a:focus{
+   color: var(--accent-color);
+}
+
+
