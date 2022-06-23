@@ -97,7 +97,7 @@ ul{
    text-transform: uppercase;
 }
 
-.btn{
+.button{
    background-color: var(--background-color);
    color: var(--primary-text-color);
    font-family: inherit;
@@ -108,16 +108,14 @@ ul{
    text-align: center;
    letter-spacing: 0.06em;
    cursor: pointer;
+   
 }
 
-.btn:hover,
-.btn:focus{
+.button:hover,
+.button:focus{
    background-color: var(--accent-color);
    color: var(--primary-white-color);
 }
-
-
-
 
  /* Features */
 
