@@ -26,6 +26,7 @@ body{
    color:var(--primary-text-color) ;
    background-color: var(--primary-white-color);
    font-family: Roboto, sans-serif;
+   font-size: 14px;
    letter-spacing: 0.03em;
 }
 
@@ -54,7 +55,6 @@ ul{
 .site-nav a{
    color: var(--primary-text-color);
    font-weight: 500;
-   font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
 }
@@ -71,7 +71,6 @@ ul{
 .contacts-header a{
    color: var(--secondary-color);
    font-weight: 500;
-   font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.02em;
 }
@@ -97,9 +96,9 @@ ul{
    text-transform: uppercase;
 }
 
-.button{
-   background-color: var(--background-color);
-   color: var(--primary-text-color);
+.button, .btn{
+   background-color: var(--accent-color);
+   color: var(--primary-white-color) ;
    font-family: inherit;
    font-weight: 700;
    font-size: 16px;
@@ -107,29 +106,26 @@ ul{
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
-   cursor: pointer;
-   
+   cursor: pointer; 
 }
+
 
 .button:hover,
 .button:focus{
-   background-color: var(--accent-color);
-   color: var(--primary-white-color);
+   background-color: var(--background-color);
+   color: var(--primary-text-color);
 }
 
  /* Features */
 
 .features-list .title{
    color: var(--primary-text-color);
-   font-weight: 700;
-   font-size: 14px;
    line-height: 1.14;
    text-transform: uppercase;
 }
 
 .features-list .text{
    color: var(--secondary-color);
-   font-size: 14px;
    line-height: 1.7;
 }
 
@@ -140,7 +136,6 @@ ul{
 }
 
 .section-title{
-   font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
    text-align: center;
@@ -168,9 +163,21 @@ ul{
 
 /* Work */
 
+.btn{
+   background-color: var(--background-color);
+   color: var(--primary-text-color);
+}
+.btn.current,
+.btn:hover,
+.btn:focus{
+   background-color: var(--accent-color);
+   color: var(--primary-white-color);
+}
+
+
+
 .work-list .title{
    color: var(--primary-text-color);
-   font-weight: 700;
    font-size: 18px;
    line-height: 2;
    letter-spacing: 0.06em;
@@ -181,8 +188,6 @@ ul{
    font-size: 16px;
    line-height: 1.9;
 }
-
-
 
 
 /* Footer */
@@ -198,19 +203,13 @@ ul{
 .address .link{
    color: var(--primary-white-color);
    font-style: normal;
-   font-size: 14px;
    line-height: 1.7;
 }
 
-.address a:hover,
-.address a:focus{
-color: var(--accent-color) ;
-}
 
 .contacts-footer a{
    color: rgb(255, 255, 255, 0.6);
    font-style: normal;
-   font-size: 14px;
    line-height: 1.7;
 }
 
